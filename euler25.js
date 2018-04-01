@@ -6,7 +6,7 @@ while(true){
   fib.push(fibo);
 
   if (fib[i+2].length>=1000){
-    console.log('F'+(i+3)+' = '+fibo) // i+3 is the index starting from 1
+    console.log(i+3)
     break;
   }
   i++;
